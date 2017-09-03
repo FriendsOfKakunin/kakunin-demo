@@ -1,0 +1,554 @@
+[
+  {
+    "keyword": "Feature",
+    "line": 2,
+    "name": "",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@wip"
+      }
+    ],
+    "uri": "/Users/adampolak1/projects/e2e-pascal/example/features/show_todos.feature",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Displaying all todos",
+        "tags": [
+          {
+            "line": 1,
+            "name": "@wip"
+          }
+        ],
+        "id": ";displaying-all-todos",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before",
+            "result": {
+              "status": "passed",
+              "duration": 2
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/adampolak1/projects/e2e-pascal/example/node_modules/kakunin/dist/configuration/hooks.js:111"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I visit the \"main\" page",
+            "result": {
+              "status": "passed",
+              "duration": 1581
+            },
+            "line": 5,
+            "match": {
+              "location": "/Users/adampolak1/projects/e2e-pascal/example/node_modules/kakunin/dist/step_definitions/navigation.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I wait for \"visibilityOf\" of the \"addTodoForm\" element",
+            "result": {
+              "status": "passed",
+              "duration": 309
+            },
+            "line": 6,
+            "match": {
+              "location": "/Users/adampolak1/projects/e2e-pascal/example/node_modules/kakunin/dist/step_definitions/elements.js:22"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "there is a todo \"My todo\"",
+            "result": {
+              "status": "passed",
+              "duration": 482
+            },
+            "line": 7,
+            "match": {
+              "location": "/Users/adampolak1/projects/e2e-pascal/example/step_definitions/todos.js:4"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "there is a completed todo \"My completed\"",
+            "result": {
+              "status": "passed",
+              "duration": 494
+            },
+            "line": 8,
+            "match": {
+              "location": "/Users/adampolak1/projects/e2e-pascal/example/step_definitions/todos.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click the \"showAllButton\" element",
+            "result": {
+              "status": "passed",
+              "duration": 150
+            },
+            "line": 9,
+            "match": {
+              "location": "/Users/adampolak1/projects/e2e-pascal/example/node_modules/kakunin/dist/step_definitions/elements.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "there are \"equal 2\" \"todos\" elements",
+            "result": {
+              "status": "passed",
+              "duration": 30
+            },
+            "line": 10,
+            "match": {
+              "location": "/Users/adampolak1/projects/e2e-pascal/example/node_modules/kakunin/dist/step_definitions/elements.js:264"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 47
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/adampolak1/projects/e2e-pascal/example/node_modules/kakunin/dist/configuration/hooks.js:101"
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Displaying active todos",
+        "tags": [
+          {
+            "line": 1,
+            "name": "@wip"
+          }
+        ],
+        "id": ";displaying-active-todos",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before",
+            "result": {
+              "status": "passed",
+              "duration": 0
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/adampolak1/projects/e2e-pascal/example/node_modules/kakunin/dist/configuration/hooks.js:111"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I visit the \"main\" page",
+            "result": {
+              "status": "passed",
+              "duration": 475
+            },
+            "line": 13,
+            "match": {
+              "location": "/Users/adampolak1/projects/e2e-pascal/example/node_modules/kakunin/dist/step_definitions/navigation.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I wait for \"visibilityOf\" of the \"addTodoForm\" element",
+            "result": {
+              "status": "passed",
+              "duration": 86
+            },
+            "line": 14,
+            "match": {
+              "location": "/Users/adampolak1/projects/e2e-pascal/example/node_modules/kakunin/dist/step_definitions/elements.js:22"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "there is a todo \"My todo\"",
+            "result": {
+              "status": "passed",
+              "duration": 358
+            },
+            "line": 15,
+            "match": {
+              "location": "/Users/adampolak1/projects/e2e-pascal/example/step_definitions/todos.js:4"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "there is a completed todo \"My completed\"",
+            "result": {
+              "status": "passed",
+              "duration": 423
+            },
+            "line": 16,
+            "match": {
+              "location": "/Users/adampolak1/projects/e2e-pascal/example/step_definitions/todos.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click the \"showActiveButton\" element",
+            "result": {
+              "status": "passed",
+              "duration": 755
+            },
+            "line": 17,
+            "match": {
+              "location": "/Users/adampolak1/projects/e2e-pascal/example/node_modules/kakunin/dist/step_definitions/elements.js:36"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "element",
+                      "value"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "todoLabel",
+                      "t:My todo"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "name": "there are \"equal 1\" following elements for element \"todos\":",
+            "result": {
+              "status": "passed",
+              "duration": 598
+            },
+            "line": 18,
+            "match": {
+              "location": "/Users/adampolak1/projects/e2e-pascal/example/node_modules/kakunin/dist/step_definitions/elements.js:208"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click the \"showAllButton\" element",
+            "result": {
+              "status": "passed",
+              "duration": 265
+            },
+            "line": 21,
+            "match": {
+              "location": "/Users/adampolak1/projects/e2e-pascal/example/node_modules/kakunin/dist/step_definitions/elements.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 56
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/adampolak1/projects/e2e-pascal/example/node_modules/kakunin/dist/configuration/hooks.js:101"
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "Displaying completed todos",
+        "tags": [
+          {
+            "line": 1,
+            "name": "@wip"
+          }
+        ],
+        "id": ";displaying-completed-todos",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before",
+            "result": {
+              "status": "passed",
+              "duration": 0
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/adampolak1/projects/e2e-pascal/example/node_modules/kakunin/dist/configuration/hooks.js:111"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I visit the \"main\" page",
+            "result": {
+              "status": "passed",
+              "duration": 861
+            },
+            "line": 24,
+            "match": {
+              "location": "/Users/adampolak1/projects/e2e-pascal/example/node_modules/kakunin/dist/step_definitions/navigation.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I wait for \"visibilityOf\" of the \"addTodoForm\" element",
+            "result": {
+              "status": "passed",
+              "duration": 120
+            },
+            "line": 25,
+            "match": {
+              "location": "/Users/adampolak1/projects/e2e-pascal/example/node_modules/kakunin/dist/step_definitions/elements.js:22"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "there is a todo \"My todo\"",
+            "result": {
+              "status": "passed",
+              "duration": 484
+            },
+            "line": 26,
+            "match": {
+              "location": "/Users/adampolak1/projects/e2e-pascal/example/step_definitions/todos.js:4"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "there is a completed todo \"My completed\"",
+            "result": {
+              "status": "passed",
+              "duration": 403
+            },
+            "line": 27,
+            "match": {
+              "location": "/Users/adampolak1/projects/e2e-pascal/example/step_definitions/todos.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click the \"showCompletedButton\" element",
+            "result": {
+              "status": "passed",
+              "duration": 136
+            },
+            "line": 28,
+            "match": {
+              "location": "/Users/adampolak1/projects/e2e-pascal/example/node_modules/kakunin/dist/step_definitions/elements.js:36"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "element",
+                      "value"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "todoLabel",
+                      "t:My completed"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "name": "there are \"equal 1\" following elements for element \"todos\":",
+            "result": {
+              "status": "passed",
+              "duration": 110
+            },
+            "line": 29,
+            "match": {
+              "location": "/Users/adampolak1/projects/e2e-pascal/example/node_modules/kakunin/dist/step_definitions/elements.js:208"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click the \"showAllButton\" element",
+            "result": {
+              "status": "passed",
+              "duration": 117
+            },
+            "line": 32,
+            "match": {
+              "location": "/Users/adampolak1/projects/e2e-pascal/example/node_modules/kakunin/dist/step_definitions/elements.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 42
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/adampolak1/projects/e2e-pascal/example/node_modules/kakunin/dist/configuration/hooks.js:101"
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "line": 34,
+        "name": "Clear todos",
+        "tags": [
+          {
+            "line": 1,
+            "name": "@wip"
+          }
+        ],
+        "id": ";clear-todos",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before",
+            "result": {
+              "status": "passed",
+              "duration": 0
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/adampolak1/projects/e2e-pascal/example/node_modules/kakunin/dist/configuration/hooks.js:111"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I wait for \"2\" seconds",
+            "result": {
+              "status": "passed",
+              "duration": 2006
+            },
+            "line": 35,
+            "match": {
+              "location": "/Users/adampolak1/projects/e2e-pascal/example/node_modules/kakunin/dist/step_definitions/debug.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I visit the \"main\" page",
+            "result": {
+              "status": "passed",
+              "duration": 370
+            },
+            "line": 36,
+            "match": {
+              "location": "/Users/adampolak1/projects/e2e-pascal/example/node_modules/kakunin/dist/step_definitions/navigation.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I wait for \"visibilityOf\" of the \"addTodoForm\" element",
+            "result": {
+              "status": "passed",
+              "duration": 107
+            },
+            "line": 37,
+            "match": {
+              "location": "/Users/adampolak1/projects/e2e-pascal/example/node_modules/kakunin/dist/step_definitions/elements.js:22"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "there is a completed todo \"My completed\"",
+            "result": {
+              "status": "passed",
+              "duration": 468
+            },
+            "line": 38,
+            "match": {
+              "location": "/Users/adampolak1/projects/e2e-pascal/example/step_definitions/todos.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "there are \"equal 1\" \"todos\" elements",
+            "result": {
+              "status": "passed",
+              "duration": 14
+            },
+            "line": 39,
+            "match": {
+              "location": "/Users/adampolak1/projects/e2e-pascal/example/node_modules/kakunin/dist/step_definitions/elements.js:264"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click the \"clearTodosButton\" element",
+            "result": {
+              "status": "passed",
+              "duration": 147
+            },
+            "line": 40,
+            "match": {
+              "location": "/Users/adampolak1/projects/e2e-pascal/example/node_modules/kakunin/dist/step_definitions/elements.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the \"todos\" element is not present",
+            "result": {
+              "status": "passed",
+              "duration": 17
+            },
+            "line": 41,
+            "match": {
+              "location": "/Users/adampolak1/projects/e2e-pascal/example/node_modules/kakunin/dist/step_definitions/elements.js:133"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 41
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/adampolak1/projects/e2e-pascal/example/node_modules/kakunin/dist/configuration/hooks.js:101"
+            }
+          }
+        ]
+      }
+    ],
+    "id": ""
+  }
+]
